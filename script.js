@@ -63,4 +63,5 @@ var makePlatforms = function(x,y,width,height,color){
   })
 };
 makePlatforms(100,100,100,100);
+makePlatforms(100,100,100,100);
  
