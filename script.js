@@ -60,8 +60,23 @@ var makePlatforms = function(x,y,width,height,color){
     x: x,y: y,
     width: width, height: height,
     color: color
-  })
+  });
 };
 makePlatforms(100,100,100,100);
 makePlatforms(100,100,100,100);
+
+var orangePlatforms = [];
+
+var makeOrangePlatforms = function(x,y,width,height,color){
+    orangePlatforms.push({
+       x: x, y: y,
+       width: width, height: height,
+       color: color
+    });
+    if(collideWith===makeOrangePlatforms){
+        printIn("GAME OVER")
+    }
+};
+
+
  
