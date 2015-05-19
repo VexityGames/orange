@@ -8,10 +8,15 @@ var manSize = 20
 var maxFallSpeed = 8
 
 var keys = []
-func keyIsPressed(){keys[keyCode]=true}
-func keyIsReleased(){keys[keyCode]=false}
+var keyIsPressed = func(){keys[keyCode]=true}
+var keyIsReleased = func(){keys[keyCode]=false}
 
 //makes platforms
 var platforms[]
 
-func makePlatforms(x,y,width,height,color)
+var makePlatforms = func(x,y,width,height,color){
+
+
+
+
+}
