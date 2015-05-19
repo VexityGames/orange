@@ -62,8 +62,8 @@ var makePlatforms = function(x,y,width,height,color){
     color: color
   });
 };
-makePlatforms(100,100,100,100);
-makePlatforms(100,100,100,100);
+makePlatforms(100,100,100,100, color(0,0,0));
+makePlatforms(100,100,100,100, color(0,0,0));
 
 var orangePlatforms = [];
 
