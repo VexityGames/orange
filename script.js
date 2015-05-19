@@ -74,9 +74,10 @@ var makeOrangePlatforms = function(x,y,width,height,color){
        color: color
     });
     if(collideWith===makeOrangePlatforms){
-        printIn("GAME OVER")
+        println("GAME OVER")
     }
 };
+
 
 
  
