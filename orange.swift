@@ -20,3 +20,5 @@ var makePlatforms = func(x,y,width,height,color){
 
 
 }
+var drawPlayer = func(){
+}
